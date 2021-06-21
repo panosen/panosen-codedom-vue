@@ -21,7 +21,7 @@
   <ItemGroup>
     <PackageReference Include="Panosen.CodeDom.Css" Version="1.0.1" />
     <PackageReference Include="Panosen.CodeDom.JavaScript" Version="1.0.0" />
-    <PackageReference Include="Panosen.CodeDom.Tag.Vue" Version="0.0.1" />
+    <PackageReference Include="Panosen.CodeDom.Tag.Vue" Version="0.0.2" />
   </ItemGroup>
 
 </Project>
