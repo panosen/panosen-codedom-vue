@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Panosen.CodeDom.Vue</AssemblyName>
+    <RootNamespace>Panosen.CodeDom.Vue</RootNamespace>
+    <Version>0.0.1</Version>
+    <Authors>harriszhang@live.cn</Authors>
+    <Company>harriszhang@live.cn</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DocumentationFile>bin\$(Configuration)\Panosen.CodeDom.Vue.xml</DocumentationFile>
+    <PackageIcon>panosen.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/panosen/panosen-codedom-vue</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\panosen.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Panosen.CodeDom.Css" Version="1.0.1" />
+    <PackageReference Include="Panosen.CodeDom.JavaScript" Version="1.0.0" />
+    <PackageReference Include="Panosen.CodeDom.Tag.Vue" Version="0.0.1" />
+  </ItemGroup>
+
+</Project>
