@@ -22,7 +22,7 @@
     <PackageReference Include="Panosen.CodeDom" Version="1.5.0" />
     <PackageReference Include="Panosen.CodeDom.Css.Engine" Version="1.0.1" />
     <PackageReference Include="Panosen.CodeDom.JavaScript.Engine" Version="1.0.0" />
-    <PackageReference Include="Panosen.CodeDom.Tag.Basic.Engine" Version="0.2.1" />
+    <PackageReference Include="Panosen.CodeDom.Tag.Basic.Engine" Version="0.2.5" />
     <PackageReference Include="Panosen.CodeDom.Tag.Core" Version="0.2.5" />
     <PackageReference Include="Panosen.Text.Extension" Version="1.0.0" />
   </ItemGroup>
