@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Panosen.CodeDom.Vue
 {
+    /// <summary>
+    /// VueButton
+    /// </summary>
     public class VueButton
     {
         /// <summary>

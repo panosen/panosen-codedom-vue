@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Panosen.CodeDom.Vue
 {
+    /// <summary>
+    /// CodeScript
+    /// </summary>
     public class CodeScript : Code
     {
         /// <summary>

@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Panosen.CodeDom.Vue
 {
+    /// <summary>
+    /// VueMetadata
+    /// </summary>
     public class VueMetadata
     {
+        /// <summary>
+        /// MetadataName
+        /// </summary>
         public string MetadataName { get; set; }
     }
 }

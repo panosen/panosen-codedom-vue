@@ -1,4 +1,7 @@
-﻿using Panosen.CodeDom.Tag.Engine;
+﻿using Panosen.CodeDom.Tag.Basic;
+using Panosen.CodeDom.Tag.Basic.Engine;
+using Panosen.CodeDom.Tag.Core;
+using Panosen.CodeDom.Tag.Engine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,10 +31,11 @@ namespace Panosen.CodeDom.Vue.Engine
 
             if (codeFile.Template != null)
             {
-                new TagCodeEngine().GenerateComponent(codeFile.Template, codeWriter, new Tag.Engine.GenerateOptions
-                {
-                    IndentSize = 1
-                });
+                var tagEngineOptions = new Tag.Engine.GenerateOptions();
+                tagEngineOptions.IndentSize = 1;
+                tagEngineOptions.AddComponentEngine<BasicComponent>(new BasicComponentEngine());
+
+                new TagEngineCore().Generate(codeFile.Template, codeWriter, tagEngineOptions);
                 codeWriter.WriteLine();
             }
 

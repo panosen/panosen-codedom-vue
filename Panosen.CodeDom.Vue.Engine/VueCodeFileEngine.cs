@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Panosen.CodeDom.Vue.Engine
 {
+    /// <summary>
+    /// VueCodeFileEngine
+    /// </summary>
     public partial class VueCodeFileEngine
     {
+        /// <summary>
+        /// GenerateCodeFile
+        /// </summary>
+        /// <param name="codeFile"></param>
+        /// <param name="codeWriter"></param>
+        /// <param name="options"></param>
         public void GenerateCodeFile(VueCodeFile codeFile, CodeWriter codeWriter, GenerateOptions options = null)
         {
             if (codeFile == null) { return; }
