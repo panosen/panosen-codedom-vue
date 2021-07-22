@@ -8,6 +8,12 @@ namespace Panosen.CodeDom.Vue.Engine
 {
     partial class VueCodeScriptEngine
     {
+        /// <summary>
+        /// GenerateComponents
+        /// </summary>
+        /// <param name="components"></param>
+        /// <param name="codeWriter"></param>
+        /// <param name="options"></param>
         public void GenerateComponents(Dictionary<string, string> components, CodeWriter codeWriter, GenerateOptions options = null)
         {
             if (components == null) { return; }

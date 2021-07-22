@@ -8,6 +8,12 @@ namespace Panosen.CodeDom.Vue.Engine
 {
     partial class VueCodeScriptEngine
     {
+        /// <summary>
+        /// GenerateImport
+        /// </summary>
+        /// <param name="imports"></param>
+        /// <param name="codeWriter"></param>
+        /// <param name="options"></param>
         public void GenerateImport(Dictionary<string, string> imports, CodeWriter codeWriter, GenerateOptions options = null)
         {
             if (imports == null || imports.Count == 0) { return; }

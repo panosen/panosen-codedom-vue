@@ -8,6 +8,12 @@ namespace Panosen.CodeDom.Vue.Engine
 {
     partial class VueCodeScriptEngine
     {
+        /// <summary>
+        /// GenerateProps
+        /// </summary>
+        /// <param name="propMap"></param>
+        /// <param name="codeWriter"></param>
+        /// <param name="options"></param>
         public void GenerateProps(Dictionary<string, VueProp> propMap, CodeWriter codeWriter, GenerateOptions options = null)
         {
             if (propMap == null || propMap.Count == 0)
