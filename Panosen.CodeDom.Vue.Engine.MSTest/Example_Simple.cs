@@ -74,7 +74,7 @@ namespace Panosen.CodeDom.Vue.Engine.MSTest
             var style = new CodeStyle();
 
             style.AddCss("a")
-                .SetMargin("10px");
+                .AddProperty("margin", "10px");
 
             return style;
         }
